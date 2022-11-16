@@ -2,7 +2,7 @@
 In this section we present the recommendations that should be adopted by the optimization research community. Many of these have been suggested in other works, including many of those referred to in Section 3.1. However, to our knowledge, there has been very little take up on many of the proposals made and many of the bad practices that were highlighted still exist. We hope that providing an explicit set of recommendations will focus the minds of researchers as to the areas that need to be addressed when proposing a hypothesis and then designing and running simulations to investigate that hypothesis. The recommendations have been split into a number of key areas.
 
 ## Guiding Principles
-There are certain guiding principles that underpin all the other recommendations. This is similar to the guidelines set out by the Committee on Publication Ethics $\left(\mathrm{COPE}^{3}\right)$, which is aimed at journal editors and publishers.
+There are certain guiding principles that underpin all the other recommendations. This is similar to the guidelines set out by the Committee on Publication Ethics $([COPE][3])$, which is aimed at journal editors and publishers.
 
 In some sense, they are obvious, but we believe that it is worth stating them explicitly, so that there is no confusion.
 
@@ -24,7 +24,7 @@ There are many datasets that have been introduced into the scientific literature
 
 - [ ] R.4 Any benchmark dataset that is accepted into the scientific community should be stored in one central location (see Section 4.16) so that all the datasets are available to all researchers in one place.
 
-${ }^{3}$ http://publicationethics.org/ Associated with each instance will be the paper (see R.5) that introduced the benchmark, along with all published results.
+Associated with each instance will be the paper (see R.5) that introduced the benchmark, along with all published results.
 
 - [ ] R.5 Any dataset that a researcher wants to become a recognized dataset should be subject to the same peer review process as any other scientific paper. Furthermore, where possible, a dataset should be introduced via a stand-alone paper so that the peer review process can focus on the proposed benchmark instances, rather than on an algorithm that is being proposed. The paper should introduce the datasets, and provide all the elements that are set out in R.6 to R.14.
 
@@ -56,7 +56,7 @@ Not every researcher will want to register a benchmark dataset, as defined in Se
 
 ## Presentation of Solutions
 
-Too often in the optimization research literature, when presenting the results of a simulation the researcher simply reports the value of the evaluation function. If another researcher wants to view the solution, to either verify that the evaluation is correct, or to simply inspect it to give insights for further research, the solution is often impossible to access. Occasionally, results are verified. A good example of this is the Traveling Tournament Problem (TTP) instances, introduced in (Easton et al., 2001). Before a result can be recognized on the web site ${ }^{4}$, the solution has to be sent to Michael Trick, one of the authors who established the benchmarks in (Easton et al., 2001), who will validate that it is correct.
+Too often in the optimization research literature, when presenting the results of a simulation the researcher simply reports the value of the evaluation function. If another researcher wants to view the solution, to either verify that the evaluation is correct, or to simply inspect it to give insights for further research, the solution is often impossible to access. Occasionally, results are verified. A good example of this is the Traveling Tournament Problem (TTP) instances, introduced in (Easton et al., 2001). Before a result can be recognized on the [web site[4], the solution has to be sent to Michael Trick, one of the authors who established the benchmarks in (Easton et al., 2001), who will validate that it is correct.
 
 ### Recommendations for GLP4OPT
 
@@ -78,9 +78,8 @@ The evaluation function is often the most important part of the paper and it is 
 
 - [ ] R.18 The evaluation function must be described in a way that can be understood and implemented by other researchers.
 
-- [ ] R.19 Referring to recommendation R.8 it should be possible for another researcher to test their implementation of an evaluation function to check that they have implemented it correctly and that it produces the same values as $\mathbf{R} .8$.
+- [ ] R.19 Referring to recommendation R.8 it should be possible for another researcher to test their implementation of an evaluation function to check that they have implemented it correctly and that it produces the same values as R.8.
 
-${ }^{4}$ http://mat.gsia.cmu.edu/TOURN/ 
 
 ## Algorithm Presentation
 
@@ -100,13 +99,13 @@ Computational times have been an issue for a long time, and will remain so for t
 
 ### Recommendations for GLP4OPT
 
-- [ ] R.23 The researcher should adopt the recommended computational times as provided in $\mathbf{R . 1 0}$, stating which method they are using.
+- [ ] R.23 The researcher should adopt the recommended computational times as provided in R. 10, stating which method they are using.
 
 - [ ] R.24 A researcher is at liberty to use a different computational time, but it must be done in such a way that other researchers are able to use the same timings in future research (see recommendation R.28)
 
 ## Statistics
 
-The question of which statistics to use is often problematical. However, if recommendation $\mathbf{R} .9$ is adopted then each registered benchmark will come with a set of recommendations as to how different algorithms can be compared. Moreover, this recommendation would have undergone a peer review process so the community will have acknowledged that this statistical test is sufficient. In addition, recommendation R.16 will ensure that there is a sufficient number of solutions available (rather than just the best solution) so that the relevant statistical test has the correct data in order to be applied.
+The question of which statistics to use is often problematical. However, if recommendation R.9 is adopted then each registered benchmark will come with a set of recommendations as to how different algorithms can be compared. Moreover, this recommendation would have undergone a peer review process so the community will have acknowledged that this statistical test is sufficient. In addition, recommendation R.16 will ensure that there is a sufficient number of solutions available (rather than just the best solution) so that the relevant statistical test has the correct data in order to be applied.
 
 ### Recommendations for GLP4OPT
 
@@ -170,7 +169,7 @@ Unless the first option is chosen, a statement/justification must be given in th
 
 - [ ] R.35 Supplying source code does imply that any support will be given to other researchers who later use, or access, the source code.
 
-- [ ] R.36 The complete environment must be described so that anybody using the source code is able to replicate the computational conditions. As an example, the experimental setup might utilize Matlab, $\mathrm{R}$ or mathematical software. These elements need to be described in a manner that enables reproducibility.
+- [ ] R.36 The complete environment must be described so that anybody using the source code is able to replicate the computational conditions. As an example, the experimental setup might utilize Matlab, R or mathematical software. These elements need to be described in a manner that enables reproducibility.
 
 - [ ] R.37 Source code associated with a published paper should be held in a repository that does not allow updates (any corrections should be done via an erratum) and which can be accessed via a permalink, in the same way that scientific papers are generally available via a DOI. This is to ensure that, like scientific papers, scientific researchers are accessing the same version of the source code as supplied by the authors.
 
@@ -245,3 +244,6 @@ There may also be an opportunity for one of the Operations Research societies to
 - [ ] R.53 Once (and if) established, the GLP4OPT web site will maintain the set of historical datasets (see (R.14), including best known solutions and all papers that have used those datasets.
 
 - [ ] R.54 It is recognized that many of the data specified in this section might be held as a supplementary file on the journal's we site. In this case, the GLP4OPT web site will contain the necessary links to the supplementary data.
+
+[3]: http://publicationethics.org/
+[4]: http://mat.gsia.cmu.edu/TOURN/ 
