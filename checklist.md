@@ -2,7 +2,7 @@
 In this section we present the recommendations that should be adopted by the optimization research community. Many of these have been suggested in other works, including many of those referred to in Section 3.1. However, to our knowledge, there has been very little take up on many of the proposals made and many of the bad practices that were highlighted still exist. We hope that providing an explicit set of recommendations will focus the minds of researchers as to the areas that need to be addressed when proposing a hypothesis and then designing and running simulations to investigate that hypothesis. The recommendations have been split into a number of key areas.
 
 ## Guiding Principles
-There are certain guiding principles that underpin all the other recommendations. This is similar to the guidelines set out by the Committee on Publication Ethics $([COPE][3])$, which is aimed at journal editors and publishers.
+There are certain guiding principles that underpin all the other recommendations. This is similar to the guidelines set out by the Committee on Publication Ethics ([COPE][3]), which is aimed at journal editors and publishers.
 
 In some sense, they are obvious, but we believe that it is worth stating them explicitly, so that there is no confusion.
 
@@ -56,7 +56,7 @@ Not every researcher will want to register a benchmark dataset, as defined in Se
 
 ## Presentation of Solutions
 
-Too often in the optimization research literature, when presenting the results of a simulation the researcher simply reports the value of the evaluation function. If another researcher wants to view the solution, to either verify that the evaluation is correct, or to simply inspect it to give insights for further research, the solution is often impossible to access. Occasionally, results are verified. A good example of this is the Traveling Tournament Problem (TTP) instances, introduced in (Easton et al., 2001). Before a result can be recognized on the [web site[4], the solution has to be sent to Michael Trick, one of the authors who established the benchmarks in (Easton et al., 2001), who will validate that it is correct.
+Too often in the optimization research literature, when presenting the results of a simulation the researcher simply reports the value of the evaluation function. If another researcher wants to view the solution, to either verify that the evaluation is correct, or to simply inspect it to give insights for further research, the solution is often impossible to access. Occasionally, results are verified. A good example of this is the Traveling Tournament Problem (TTP) instances, introduced in (Easton et al., 2001). Before a result can be recognized on the [web site][4], the solution has to be sent to Michael Trick, one of the authors who established the benchmarks in (Easton et al., 2001), who will validate that it is correct.
 
 ### Recommendations for GLP4OPT
 
