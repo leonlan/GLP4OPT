@@ -6,6 +6,6 @@ The guidelines by GLP4OPT are presented in Section 4 of Kendall et al. (2016). T
 - [`checklist-long.md`](https://github.com/leonlan/glp4opt/blob/master/checklist-long.md): This file includes all GLP4OPT recommendations as checklist, including the motivation behind the guidelines.
 - [`checklist-short.md`](https://github.com/leonlan/glp4opt/blob/master/checklist-short.md): This file only includes the GLP4OPT recommendations without motivation.
 
-If you work on Github, I recommend to make an [issue](https://github.com/leonlan/glp4opt/issues/8) or a [discussion thread](https://github.com/leonlan/glp4opt/discussions/11) in your code/paper repository to easily check off each recommendation.
+If you work on Github, I recommend to copy-paste the checklist to an [issue](https://github.com/leonlan/glp4opt/issues/8) or a [discussion thread](https://github.com/leonlan/glp4opt/discussions/11) so that you can easily check off each recommendation.
 
 
